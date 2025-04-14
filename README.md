@@ -104,6 +104,8 @@ FPS 게임의 기본 시스템(이동, 사격, 무기 교체, 아이템 등)은 
 
 - 👉 [Jewelry Collector FPS v1.0 다운로드](https://github.com/Joycong/Jewelry-Collector-FPS/releases)
 
+MY FPS GAME.exe를 실행하여 플레이하실 수 있습니다.
+
 ---
 
 ## 👨‍💻 개발자

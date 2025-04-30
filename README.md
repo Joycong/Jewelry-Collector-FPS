@@ -78,6 +78,24 @@ FPS 게임의 기본 시스템(이동, 사격, 무기 교체, 아이템 등)은 
 - [Toony Tiny Soldiers Demo](https://assetstore.unity.com/packages/3d/characters/toony-tiny-soldiers-demo-180904)
 - [Simple Gems and Items Ultimate Animated Customizable Pack](https://assetstore.unity.com/packages/3d/props/simple-gems-and-items-ultimate-animated-customizable-pack-73764)
 
+💡 참고: 일부 오브젝트가 특정 경로에 의존하는 경우 아래와 같은 구조를 맞춰 주세요
+
+## 📁 외부 에셋 경로 예시
+
+에셋을 import할 때, 다음과 같은 경로 구조를 유지하면 프로젝트가 정상적으로 작동합니다:  
+
+| 에셋 이름 | 예상 경로 |
+|:--|:--|
+| AurynSky (보석 모델) | `Assets/ExternalAssets/AurynSky/` |
+| FPS Icons Pack (UI 아이콘) | `Assets/ExternalAssets/FPS Icons Pack/` |
+| Low Poly FPS Pack - Free Sample (총기 및 애니메이션) | `Assets/ExternalAssets/Low Poly FPS Pack - Free (Sample)/` |
+| POLYGON City Pack (도시 배경) | `Assets/ExternalAssets/POLYGON city pack/` |
+| Toon Muzzleflash Pack (총구 이펙트) | `Assets/ExternalAssets/Toon Muzzleflash Pack/` |
+| Toony Tiny People (NPC/병사 모델) | `Assets/ExternalAssets/ToonyTinyPeople/` |
+
+> 💡 에셋 구조가 변경되었거나 다른 위치에 import될 경우, 일부 프리팹이나 오브젝트 연결이 끊길 수 있습니다.  
+> 이 경우 Unity에서 경로를 수동으로 맞춰주거나, 씬 내 오브젝트를 다시 연결해 주세요.
+
 ---
 
 ## 🚀 실행 방법

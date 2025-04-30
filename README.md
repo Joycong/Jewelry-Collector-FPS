@@ -122,8 +122,3 @@ MY FPS GAME.exe를 실행하여 플레이하실 수 있습니다.
 - GitHub: [@Joycong](https://github.com/Joycong)
 
 ---
-
-## 📄 라이선스
-
-본 프로젝트는 교육용으로 제작된 데모 게임입니다.  
-코드의 일부는 학습 자료를 참고하였으며, 에셋은 Unity Asset Store의 무료 에셋만 사용하였습니다.
